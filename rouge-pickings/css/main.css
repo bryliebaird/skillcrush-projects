@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Galada&display=swap');
+
+
+/* ****** STYLES ****** */ 
+
+
+/* ****** GRID ****** */
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+.third-width {
+    width: 400px; 
+    float: left;
+}
+
+
+/* ****** HEADER ****** */
+
+header h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    text-transform: uppercase;
+    
+}
+header h1 span {
+    color: #77a466;
+}
+
+nav {
+    display: inline-block;
+}
+
+nav li {
+    list-style: none;
+} 
+nav li a{
+    color:#77a466;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+
+/* ****** MAIN ****** */ 
+
+.main-img {
+    border: 5px solid #77a466;
+}
+
+#main-title {
+    color: #77a466;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+#main-text {
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+
+}
+
+
+/* ****** BOTTOM ****** */ 
+
+
+#menu-container {
+    border-top: 1px solid #eee;
+    padding: 20px;
+    margin-left: 25px;
+}
+
+#menu-title {
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin: 12px 0;
+    padding: 10px 0;
+}
+
+#menu-list {
+    list-style: none;
+    padding-left: 0px;
+}
+
+#menu-list li{
+    text-align: left;
+}
+
+#menu-list li a {
+    color: #77a466;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 40px;
+    text-decoration: none;
+}
+
+
+#review-container {
+    border-top: 1px solid #eee;
+    border-right: 1px solid #eee;
+    border-left: 1px solid #eee;
+    font-family: 'Montserrat', sans-serif;
+    padding: 25px; 
+}
+
+#review-text {
+    margin: 16px 0;
+    padding: 0 30px;
+}
+
+#address-container {
+    border-top: 1px solid #eee;
+    font-family: 'Montserrat', sans-serif;
+    padding: 25px;
+}
+
+
+
+
+/* ****** FOOTER ******/
+
+footer {
+    border-top: 3px solid #eee;
+    clear: both;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    margin: 12px 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+footer span {
+    color: #77a466;
+    font-family: 'Galada', cursive;
+}
