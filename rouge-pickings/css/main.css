@@ -11,7 +11,6 @@
 .full-width {
     width: 1200px;
     margin: 0 auto;
-    overflow: auto;
 }
 
 .half-width {
@@ -27,49 +26,61 @@
 
 /* ****** HEADER ****** */
 
+
+
 header h1 {
+    display: inline-block;
     font-family: 'Montserrat', sans-serif;
     font-size: 40px;
     text-transform: uppercase;
+    margin: 0px;
+    padding: 45px 0;
     
 }
 header h1 span {
     color: #77a466;
 }
 
-nav {
+header nav {
     display: inline-block;
+    float: right;
+    padding: 45px 0;
 }
 
-nav li {
+header nav li {
+    display: inline-block;
     list-style: none;
-} 
-nav li a{
+    padding: 0 10px;
+}
+
+header nav li a{
     color:#77a466;
     font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
     font-weight: bold;
     text-transform: uppercase;
     text-decoration: none;
 }
 
-
-/* ****** MAIN ****** */ 
-
-.main-img {
+#header-img {
+    height: auto;
+    float: left;
     border: 5px solid #77a466;
 }
 
-#main-title {
+#header-title {
     color: #77a466;
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     text-transform: uppercase;
+    clear: both;
+    padding-top: 20px;
 }
 
-#main-text {
+#header-text {
     color: #000;
     font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 24px;
 
 }
@@ -116,18 +127,46 @@ nav li a{
     border-right: 1px solid #eee;
     border-left: 1px solid #eee;
     font-family: 'Montserrat', sans-serif;
-    padding: 25px; 
+
 }
+
+
+#review-title {
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin: 12px 0;
+    padding: 10px 0;
+}
+
 
 #review-text {
     margin: 16px 0;
     padding: 0 30px;
+    line-height: 21px;
+    font-size: 16px;
 }
 
 #address-container {
     border-top: 1px solid #eee;
     font-family: 'Montserrat', sans-serif;
-    padding: 25px;
+}
+
+#address-title {
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin: 12px 0;
+    padding: 10px 0;
+}
+
+#address-text {
+    margin: 16px 0;
+    padding: 0 30px;
+    line-height: 21px;
+    font-size: 16px;
 }
 
 
