@@ -91,7 +91,6 @@ header nav li a{
 
 #menu-container {
     border-top: 1px solid #eee;
-    padding: 20px;
     margin-left: 25px;
 }
 
@@ -121,15 +120,13 @@ header nav li a{
     text-decoration: none;
 }
 
-
 #review-container {
     border-top: 1px solid #eee;
     border-right: 1px solid #eee;
     border-left: 1px solid #eee;
     font-family: 'Montserrat', sans-serif;
-
+    padding-bottom: 10px;
 }
-
 
 #review-title {
     color: #000;
@@ -137,9 +134,10 @@ header nav li a{
     font-size: 12px;
     text-transform: uppercase;
     margin: 12px 0;
-    padding: 10px 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
 }
-
 
 #review-text {
     margin: 16px 0;
@@ -159,16 +157,17 @@ header nav li a{
     font-size: 12px;
     text-transform: uppercase;
     margin: 12px 0;
-    padding: 10px 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
 }
 
 #address-text {
     margin: 16px 0;
     padding: 0 30px;
-    line-height: 21px;
+    line-height: 24px;
     font-size: 16px;
 }
-
 
 
 
@@ -188,4 +187,5 @@ footer {
 footer span {
     color: #77a466;
     font-family: 'Galada', cursive;
+    text-transform: lowercase;
 }
