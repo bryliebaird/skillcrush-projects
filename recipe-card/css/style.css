@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;700&display=swap');
+
+
+/* *** GRID *** */ 
+
+
+
+
+
+/* *** STYLES *** */ 
+
+h1, h2, h4  {
+    color: #F16059;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+h3 {
+    color: #3B3B3B;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+p {
+    color: #3B3B3B;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+
+/* *** HEADER *** */
+
+header {
+    background: #fff;
+    height: 75px;
+}
+
+
+/* *** MAIN *** */
+
+#recipe-container {
+    background: #DAF7F6;
+}
+
+.recipe-card {
+    background: #fff;
+}
+
+
+
+/* *** SECTION ONE *** */ 
+
+
+
+
+
+/* *** SECTION TWO *** */
+
+
+
+
+/* *** SECTION THREE *** */
+
