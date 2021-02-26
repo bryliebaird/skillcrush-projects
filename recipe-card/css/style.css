@@ -7,7 +7,12 @@
 
 
 
+
 /* *** STYLES *** */ 
+
+body {
+    background: #DAF7F6;
+}
 
 h1, h2, h4  {
     color: #F16059;
@@ -18,6 +23,7 @@ h1, h2, h4  {
 h3 {
     color: #3B3B3B;
     font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
     text-transform: uppercase;
 }
 
@@ -28,36 +34,108 @@ p {
 }
 
 
+/* *** CARD STYLES *** */
+
+
 /* *** HEADER *** */
 
 header {
-    background: #fff;
     height: 75px;
+}
+
+#header-icon {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#header-title {
+    display: inline-block;
+    vertical-align: middle;
 }
 
 
 /* *** MAIN *** */
 
-#recipe-container {
-    background: #DAF7F6;
-}
-
 .recipe-card {
-    background: #fff;
+    width: 1000px;
+    height: 200px;
+    background: pink;
+}
+
+.img-container {
+    float: left;
+    width: 500px;
+}
+
+/* **** Recipe Text - Time Section *** */
+
+.text-container {
+    width: 500px;
+    float: right;
+}
+
+.time-container {
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid gray;
+}
+
+.time-title {
+    display: inline-block;
+    margin: 0px;
+}
+
+.time-text {
+    display: inline-block;
+    margin: 0px;
+    padding-right: 10px;
+    text-transform: uppercase;
+}
+
+.time-icon {
+    vertical-align: middle; 
 }
 
 
+/* * *** Recipe Text - Ingredients Section *** */
 
-/* *** SECTION ONE *** */ 
+.ingredient-container {
+    width: 250px;
+    background: lightgray;
+    float: left;
+}
+
+.ingredient-title {
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    margin: 12px;
+    
+}
+
+.ingredient-list {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    list-style-type: square;
+    line-height: 24px;
+}
 
 
+/* * *** Recipe Text - Directions Section *** */
 
+.direction-container {
+    width: 250px;
+    background: lightgray;
+    float: right;
+}
 
+.direction-title {
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    margin: 12px;
+}
 
-/* *** SECTION TWO *** */
-
-
-
-
-/* *** SECTION THREE *** */
-
+.direction-item {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    line-height: 24px;
+}
